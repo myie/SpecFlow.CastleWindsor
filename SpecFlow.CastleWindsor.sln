@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CastleWindsor.SpecFlowPlugin", "src\plugin\CastleWindsor.SpecFlowPlugin.csproj", "{2E591B65-8242-4889-8142-42B603530D70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{456B26DD-8599-4504-85E4-5E44D471C270}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "examples\Calculator\Calculator.csproj", "{02268FA3-AA10-4250-B5D7-2F52253E98F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Tests", "examples\Calculator.Tests\Calculator.Tests.csproj", "{14F76DB7-C78F-45FD-A988-783EF1770D15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1859BFCB-13CE-4B01-88D5-399878658932}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E591B65-8242-4889-8142-42B603530D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E591B65-8242-4889-8142-42B603530D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E591B65-8242-4889-8142-42B603530D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E591B65-8242-4889-8142-42B603530D70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02268FA3-AA10-4250-B5D7-2F52253E98F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02268FA3-AA10-4250-B5D7-2F52253E98F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02268FA3-AA10-4250-B5D7-2F52253E98F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02268FA3-AA10-4250-B5D7-2F52253E98F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14F76DB7-C78F-45FD-A988-783EF1770D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F76DB7-C78F-45FD-A988-783EF1770D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F76DB7-C78F-45FD-A988-783EF1770D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F76DB7-C78F-45FD-A988-783EF1770D15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02268FA3-AA10-4250-B5D7-2F52253E98F6} = {456B26DD-8599-4504-85E4-5E44D471C270}
+		{14F76DB7-C78F-45FD-A988-783EF1770D15} = {456B26DD-8599-4504-85E4-5E44D471C270}
+	EndGlobalSection
+EndGlobal

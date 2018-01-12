@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SpecFlow.CastleWindsor</id>
+    <title>SpecFlow Castle Windsor integration plugin</title>
+    <version>1.0.0.0</version>
+    <authors>Intelligent Environments</authors>
+    <owners>Intelligent Environments</owners>
+    <copyright>Copyright © 2018 Intelligent Environments</copyright>
+    <licenseUrl>https://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>Castle Windsor specflow di depedency injection</tags>
+    <description>Replaces default Specflow IoC container with Castle Windsor</description>
+    <projectUrl>https://github.com/myie/SpecFlow.CastleWindsor</projectUrl>
+    <iconUrl>https://www.thedigitalbankingclub.com/IE_300x300.jpg</iconUrl>
+  </metadata>
+  <files>
+    <file src="Content\**\*.*" target="Content" />
+  </files>
+</package>
