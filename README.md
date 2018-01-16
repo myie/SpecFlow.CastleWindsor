@@ -1,4 +1,6 @@
-﻿# SpecFlow.CastleWindsor
+[![Build status](https://ci.appveyor.com/api/projects/status/id773lluq6jdiaim?svg=true)](https://ci.appveyor.com/project/myie-msmith/specflow-castlewindsor)
+
+# SpecFlow.CastleWindsor
 
 This plugin replaces the default DI container in Specflow with Castle Windsor.
 
