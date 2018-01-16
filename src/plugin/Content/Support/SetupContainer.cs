@@ -1,13 +1,22 @@
-﻿using System;
-using System.Linq;
-using Castle.MicroKernel.Lifestyle;
+﻿using Castle.MicroKernel.Lifestyle;
 using Castle.MicroKernel.Registration;
 using Castle.Windsor;
-using CastleWindsor.SpecFlowPlugin;
 using TechTalk.SpecFlow;
 
-namespace Integration.Tests.Support {
+namespace CastleWindsor.SpecFlowPlugin.Content.Support {
+    /// <summary>
+    /// SetupContainer is called before every scenario runs.
+    /// It is used to setup the container &amp; its dependencies
+    /// and then return the container to be used.
+    ///  </summary>
+    /// <remarks>
+    ///  You can either add a 'new' windsor container as shown below
+    /// or return an existing container as shown in the commented
+    /// out example, this could be a static method that bootstraps
+    /// your container & dependencies for you.
+    /// </remarks>
     public class SetupContainer {
+
         [ScenarioDependencies]
         public static IWindsorContainer CreateContainerBuilder()
         {
